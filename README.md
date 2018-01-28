@@ -14,18 +14,15 @@ password： ''
 ### 2 站点配置
 
 本人在windows下，使用的是Apache，hosts文件下(C:\Windows\System32\drivers\etc\hosts)加入站点设置：127.0.0.1  www.laravel.com  
-在Apache的httpd-vhosts.conf中(.\apache\conf\extra)中的配置如下：
-
---------------------------------  
-##www.laravel.com  
-<VirtualHost *:80>  
+在Apache的httpd-vhosts.conf中(.\apache\conf\extra)中的配置如下：  
+ 
+##www.laravel.com    
+<VirtualHost *:80>   
     DocumentRoot "C:/www/laravel/public"  
     ServerName www.laravel.com  
     ErrorLog "logs/dummy-host2.example.com-error.log"  
     CustomLog "logs/dummy-host2.example.com-access.log" common  
 </VirtualHost>  
----------------------------------
-
 
 
 ### 3 代码使用说明
