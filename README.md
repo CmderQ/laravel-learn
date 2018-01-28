@@ -33,4 +33,4 @@ password： ''
 按照1,2步骤配置好后，将代码放到www目录下的新建laravel文件夹中，开启apache，在浏览器中输入http://www.laravel.com/student/index  即可。在这里，需要注意的是，若直接放入www目录下，则在步骤2中， DocumentRoot "C:/www/laravel/public"直接改为"www所在的盘:/www/public"即可
    
 
-   如有什么疑问，可以联系给本人留言说明。
+   如有什么疑问，可以留言说明。
