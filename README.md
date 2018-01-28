@@ -17,13 +17,13 @@ password： ''
 在Apache的httpd-vhosts.conf中(.\apache\conf\extra)中的配置如下：
 
 --------------------------------  
-##www.laravel.com
-<VirtualHost *:80>
-    DocumentRoot "C:/www/laravel/public"
-    ServerName www.laravel.com
-    ErrorLog "logs/dummy-host2.example.com-error.log"
-    CustomLog "logs/dummy-host2.example.com-access.log" common
-</VirtualHost>
+##www.laravel.com  
+<VirtualHost *:80>  
+    DocumentRoot "C:/www/laravel/public"  
+    ServerName www.laravel.com  
+    ErrorLog "logs/dummy-host2.example.com-error.log"  
+    CustomLog "logs/dummy-host2.example.com-access.log" common  
+</VirtualHost>  
 ---------------------------------
 
 
